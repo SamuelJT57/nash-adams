@@ -25,6 +25,7 @@ body {
     align-items: center;
     padding: 20px 5%;
     border-bottom: 1px solid #222222;
+    transition: border-color .2s ease;
 }
 
 .logo {
@@ -123,14 +124,28 @@ body {
     font-size: 0.8rem;
     letter-spacing: 1px;
     margin-top: auto;
+    transition:background .2s ease,transform .2s ease;
 }
 
 .buy-btn:hover {
     background-color: #cc1f1f;
+    transform:translateY(-2px);
+}
+
+.buy-btn:focus-visible{
+    outline:2px solid white;
+    outline-offset:3px;
 }
 
 .logo img {
     height: 40px; /* Adjust this number to scale the logo size up or down */
     width: auto;
     display: block;
+}
+
+@media(max-width:700px){
+.navbar{
+flex-direction:column;
+gap:20px;
+}
 }
