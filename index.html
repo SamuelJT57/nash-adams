@@ -1,60 +1,66 @@
-<div class="product-grid">
-    
-    <div class="product-card">
-        <div class="product-image-wrapper">
-            <img src="https://via.placeholder.com/400x500" alt="Heavyweight Tee" class="product-image">
-        </div>
-        <div class="product-info">
-            <h2 class="product-name">Heavyweight Tee</h2>
-            <p class="product-price">$35.00</p>
-            <button class="snipcart-add-item buy-btn"
-                data-item-id="heavyweight-tee"
-                data-item-price="35.00"
-                data-item-url="/shop.html"
-                data-item-description="Premium heavy-weight streetwear tee."
-                data-item-image="https://via.placeholder.com/400x500"
-                data-item-name="Heavyweight Tee">
-                Add to Cart
-            </button>
-        </div>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop All | HelmetHeadlifting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <div class="product-card">
-        <div class="product-image-wrapper">
-            <img src="images/hoodie-front.jpg" alt="Classic Black Hoodie" class="product-image">
-        </div>
-        <div class="product-info">
-            <h2 class="product-name">Classic Black Hoodie</h2>
-            <p class="product-price">$55.00</p>
-            <button class="snipcart-add-item buy-btn"
-                data-item-id="classic-black-hoodie"
-                data-item-price="55.00"
-                data-item-url="/shop.html"
-                data-item-description="High-quality, heavy-weight cotton hoodie."
-                data-item-image="images/hoodie-front.jpg"
-                data-item-name="Classic Black Hoodie">
-                Add to Cart
-            </button>
-        </div>
+   <header class="navbar">
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/brand-logo.png" alt="Brand Logo">
+        </a>
     </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html" class="active">Shop</a>
+        <a href="#">About</a>
+    </nav>
+</header>
 
-    <div class="product-card">
-        <div class="product-image-wrapper">
-            <img src="https://via.placeholder.com/400x500" alt="Streetwear Cargoes" class="product-image">
-        </div>
-        <div class="product-info">
-            <h2 class="product-name">Streetwear Cargoes</h2>
-            <p class="product-price">$80.00</p>
-            <button class="snipcart-add-item buy-btn"
-                data-item-id="streetwear-cargoes"
-                data-item-price="80.00"
-                data-item-url="/shop.html"
-                data-item-description="Rugged streetwear cargo pants."
-                data-item-image="https://via.placeholder.com/400x500"
-                data-item-name="Streetwear Cargoes">
-                Add to Cart
-            </button>
-        </div>
-    </div>
+    <main class="shop-container">
+        <h1 class="page-title">Our Collection</h1>
+        
+        <div class="product-grid">
+            
+            <div class="product-card">
+                <div class="product-image-wrapper">
+                    <img src="https://via.placeholder.com/400x500" alt="Product Title" class="product-image">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-name">Heavyweight Tee</h2>
+                    <p class="product-price">$35.00</p>
+                    <button class="buy-btn">View Item</button>
+                </div>
+            </div>
 
-</div>
+            <div class="product-card">
+                <div class="product-image-wrapper">
+                    <img src="https://via.placeholder.com/400x500" alt="Product Title" class="product-image">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-name">Over-sized Hoodie</h2>
+                    <p class="product-price">$65.00</p>
+                    <button class="buy-btn">View Item</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image-wrapper">
+                    <img src="https://via.placeholder.com/400x500" alt="Product Title" class="product-image">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-name">Streetwear Cargoes</h2>
+                    <p class="product-price">$80.00</p>
+                    <button class="buy-btn">View Item</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+</body>
+</html>
